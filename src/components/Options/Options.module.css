@@ -1,0 +1,9 @@
+.options {
+  margin: 20px 0;
+}
+
+.options button {
+  margin: 0 10px;
+  padding: 8px 16px;
+  cursor: pointer;
+} 

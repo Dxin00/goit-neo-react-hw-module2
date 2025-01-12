@@ -1,0 +1,53 @@
+.feedback-type-button.good-active {
+  background-color: rgba(76, 175, 80, 0.8) !important; /* зеленый */
+  color: white;
+}
+
+.feedback-type-button.neutral-active {
+  background-color: rgba(255, 193, 7, 0.8) !important; /* желтый */
+  color: white;
+}
+
+.feedback-type-button.bad-active {
+  background-color: rgba(244, 67, 54, 0.8) !important; /* красный */
+  color: white;
+}
+
+/* Добавим плавный переход для всех кнопок */
+.feedback-type-button,
+.reset-button {
+  transition: all 0.3s ease;
+}
+
+/* Эффекты наведения - цвета в 3 раза темнее */
+.feedback-type-button:hover,
+.reset-button:hover {
+  background-color: rgb(75, 75, 75) !important;
+  color: white;
+}
+
+.feedback-type-button.good-active:hover {
+  background-color: rgba(25, 58, 27, 0.8) !important; /* тёмно-зеленый */
+}
+
+.feedback-type-button.neutral-active:hover {
+  background-color: rgba(85, 64, 2, 0.8) !important; /* тёмно-желтый */
+}
+
+.feedback-type-button.bad-active:hover {
+  background-color: rgba(81, 22, 18, 0.8) !important; /* тёмно-красный */
+}
+
+.feedback-section {
+  display: flex;
+  gap: 10px; /* Расстояние между кнопками */
+  justify-content: center;
+  margin-bottom: 20px; /* Расстояние между кнопками и блоком с цифрами */
+}
+
+.feedback-values {
+  display: flex;
+  justify-content: center;
+  gap: 10px; /* Расстояние между цифрами */
+  margin: 10px 0; /* Дополнительное расстояние сверху и снизу */
+} 
